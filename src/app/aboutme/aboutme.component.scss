@@ -1,0 +1,90 @@
+.page {
+  color: white;
+  padding: 0 1rem;
+  background:   #bac0ba;
+  &__box {
+    min-height: 120px;
+    background: #bac0ba;
+    margin: 3 -1rem;
+    margin-left: 3rem;
+    font-size: 36px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  &__content {
+    padding: 5rem;
+    min-height: calc(100vh - 178px);
+    border-radius: 8rem;
+    margin-top: -2rem;
+    background: white;
+    color: black;
+    font-size: 2rem;
+    &-data {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .skills{
+    width: 160px;
+    height: 160px;
+    position:relative;
+
+  }
+  .outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgb(226, 224, 224),
+    -6px -6px 10px -1px  rgb(216, 216, 216)
+  }
+  .inner{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 6px -1px  rgb(201, 201, 201),
+    -4px -4px 6px -1px rgb(203, 203, 203),
+    0.5px 0.5px 0px  rgb(249, 249, 249),
+    0px 12px 10px -10px  rgb(223, 223, 223),
+  }
+  #number{
+    font-weight: 600rem;
+    color: black;
+  }
+  circle{
+    fill: none;
+    stroke: url(#GradientColor2);
+    stroke-width: 20px;
+    stroke-dasharray: 442;
+    stroke-dashoffset: 442;
+    animation: anim 2s linear forwards;
+  }
+  svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  @keyframes anim{
+      100%{
+        stroke-dashoffset: 160;
+      }
+  }
+ .progress{
+  margin-top: 20px;
+ }
+ .progress-bar{
+  color: white;
+  background-color:  rgb(228, 23, 228);
+ }
+ .progress-bar2{
+  color: white;
+  background-color: rgb(138, 27, 138);
+ }
+ .progress-bar3{
+  color: white;
+  background-color: rgb(88, 39, 121);
+ }
+}

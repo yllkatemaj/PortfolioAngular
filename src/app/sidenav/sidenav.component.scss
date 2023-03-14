@@ -1,0 +1,42 @@
+.logo{
+  img{
+    margin-left: 80px;
+    padding: 2.1rem 2.7rem;
+    width: 214px;
+    height: 217px;
+    border-radius: 50%;
+  }
+}
+:host {
+  .mat-icon {
+    vertical-align:middle;
+    margin-right: 2rem;
+    color: rgb(29, 29, 29);
+  }
+}
+  .mat-list-item {
+
+    font-size: 0.4rem;
+    margin-bottom: 4rem;
+
+  }
+  .list-item-active {
+    background: rgb(58, 216, 119) !important;
+    border-radius:  20rem 20rem ;
+  }
+  .mat-list-item{
+      font-size: 0.8rem;
+      height: 44px !important;
+      margin-bottom: 4px;
+    }
+  .mat-list-item-content {
+
+       border-radius: 0px;
+       margin: 0 8px;
+    }
+  .mat-subheader {
+    font-size: 0.6rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
